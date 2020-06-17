@@ -34,6 +34,8 @@
 const char kApplicationName[] = "GFXReconstruct Replay";
 const char kCaptureLayer[]    = "VK_LAYER_LUNARG_gfxreconstruct";
 
+const char kHelpShortOption[] = "-h";
+const char kHelpLongOption[] = "--help";
 const char kVersionOption[]                    = "--version";
 const char kOverrideGpuArgument[]              = "--gpu";
 const char kPausedOption[]                     = "--paused";
