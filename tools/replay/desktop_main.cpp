@@ -59,7 +59,8 @@ int main(int argc, const char** argv)
 
     gfxrecon::util::ArgumentParser arg_parser(argc, argv, kOptions, kArguments);
 
-    if (PrintVersion(argv[0], arg_parser)) {
+    if (PrintVersion(argv[0], arg_parser))
+    {
         exit(0);
     }
     else if (arg_parser.IsInvalid() || (arg_parser.GetPositionalArgumentsCount() != 1))
